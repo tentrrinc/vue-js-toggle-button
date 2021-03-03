@@ -199,11 +199,11 @@ var DEFAULT_SWITCH_COLOR = '#fff';
       }
     },
     height: {
-      type: Number,
+      type: [Number, String],
       default: 22
     },
     width: {
-      type: Number,
+      type: [Number, String],
       default: 50
     },
     margin: {
